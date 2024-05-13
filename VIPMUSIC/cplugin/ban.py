@@ -35,7 +35,7 @@ async def ban_user(
     try:
         await client.ban_chat_member(chat_id, user_id)
     except ChatAdminRequired:
-        msg_text = "Ban rights? Nah, I'm just here for the digital high-fives 🙌\nGive me ban rights! 😡🥺"
+        msg_text = "Ban rights? don't CONDSIDER YOURSELF AS POWERFUL AS SUBBU⚡\nGive me ban rights! 😡🥺"
         return msg_text, False
     except UserAdminInvalid:
         msg_text = "I wont ban an admin bruh!!"
